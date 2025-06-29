@@ -1,10 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Detection</title>
+</head>
 <body style="margin: 0; padding: 0; min-height: 100vh; display: flex; justify-content: center; align-items: center; background: linear-gradient(to right, #7dd3fc, #a5b4fc); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
   <div style="background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 600px; text-align: center;">
     
     <h2>🧠 Mental Health Detection</h2>
 
-    <form method="POST">
+    <!-- ✅ Corrected form action -->
+    <form action="/predict" method="POST">
       <textarea name="text" placeholder="Type your thoughts here..." rows="5" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ccc; resize: none;"></textarea>
       <br><br>
       <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
@@ -25,3 +33,4 @@
   </div>
 
 </body>
+</html>
